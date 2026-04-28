@@ -111,11 +111,21 @@ This hybrid design allows the model to:
 Capture fine tooth details
 Handle overlapping structures
 Improve segmentation consistency
+
+graphs:
+<img width="1163" height="291" alt="image" src="https://github.com/user-attachments/assets/2e3cc7c3-4f52-4193-9289-416daeda9031" />
+
+segmentation result:
+<img width="1057" height="530" alt="image" src="https://github.com/user-attachments/assets/af01356d-47ca-4e54-8c08-21b74122a0e0" />
+<img width="1071" height="541" alt="image" src="https://github.com/user-attachments/assets/0ede2180-047b-43e4-bc1e-77b1875f574b" />
+<img width="1062" height="302" alt="image" src="https://github.com/user-attachments/assets/f5a5790b-fabc-4651-9cdc-fbb8e4788ddd" />
+
 📌 Applications
 Dental X-ray analysis
 Tooth detection and segmentation
 Orthodontic and implant planning
 Medical imaging automation
+
 📌 Conclusion
 
 This project demonstrates that integrating convolutional networks with transformer-based attention significantly improves segmentation performance in complex medical images. The approach effectively addresses challenges like class imbalance, unclear boundaries, and structural variability, making it suitable for real-world dental imaging applications.
